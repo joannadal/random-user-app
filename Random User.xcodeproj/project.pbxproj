@@ -14,6 +14,8 @@
 		C3C9D2ED1BDC619200B3B13E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C9D2EB1BDC619200B3B13E /* LaunchScreen.storyboard */; };
 		C3C9D2F81BDC619300B3B13E /* Random_UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9D2F71BDC619300B3B13E /* Random_UserTests.swift */; };
 		C3C9D3031BDC619300B3B13E /* Random_UserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9D3021BDC619300B3B13E /* Random_UserUITests.swift */; };
+		C3C9D3151BDC6AE400B3B13E /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9D3141BDC6AE400B3B13E /* RestApiManager.swift */; };
+		C3C9D3191BDC6C1E00B3B13E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C9D3181BDC6C1E00B3B13E /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C3C9D2FE1BDC619300B3B13E /* Random UserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Random UserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C9D3021BDC619300B3B13E /* Random_UserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random_UserUITests.swift; sourceTree = "<group>"; };
 		C3C9D3041BDC619300B3B13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3C9D3141BDC6AE400B3B13E /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		C3C9D3181BDC6C1E00B3B13E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../../SwiftyJSON/Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				C3C9D2E91BDC619200B3B13E /* Assets.xcassets */,
 				C3C9D2EB1BDC619200B3B13E /* LaunchScreen.storyboard */,
 				C3C9D2EE1BDC619200B3B13E /* Info.plist */,
+				C3C9D3181BDC6C1E00B3B13E /* SwiftyJSON.swift */,
+				C3C9D3141BDC6AE400B3B13E /* RestApiManager.swift */,
 			);
 			path = "Random User";
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				C3C9D2E51BDC619200B3B13E /* ViewController.swift in Sources */,
 				C3C9D2E31BDC619200B3B13E /* AppDelegate.swift in Sources */,
+				C3C9D3151BDC6AE400B3B13E /* RestApiManager.swift in Sources */,
+				C3C9D3191BDC6C1E00B3B13E /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
